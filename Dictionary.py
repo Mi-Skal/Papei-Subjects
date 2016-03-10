@@ -21,8 +21,8 @@ class BloomFilter:
 				print "--" , word, "--" ,
 				return ""
 				break
-	        else:
-				return word
+	        else:                   #gia kapoio logo moy alazei tin thesi tou else
+				return word   #opws einai twra sto notepad logika epanerxetai stin swsti thesi
      		
 				
 			
