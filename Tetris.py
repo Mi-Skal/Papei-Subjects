@@ -15,8 +15,6 @@ while not finished:
  table[2][y+1] = 1
 
 
-
-
  for i in range(0,17):  #Check for free space
 	 
   if table[i+3][y] == 0 and table[i+3][y+1] == 0:
@@ -33,12 +31,6 @@ while not finished:
   else:
    break
  count = count + 1
- for k in range(0,20):
-  for j in range(0,10):
-   print table[k][j],
-  print "\n"
- c = raw_input("continue?")
-
-
+ 
 print "The game is over," ,count ,"L managed to get in the game-table!"
 print "Thank you for playing!"
