@@ -34,8 +34,8 @@ for line in lines:
 	bf.add(line)
 
 	
-with open("Thema10") as f:
-	lines = f.readlines()
+with open("Thema10.txt") as f:  #the file must be named Thema10.txt and putted in the safe folder with the py file!!
+	lines = f.readlines()   #if you want it in another way,just edit 37 line to work perfectly
 	for line in lines:
 		words = line.split()
 		for word in words:
