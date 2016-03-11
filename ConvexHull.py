@@ -10,7 +10,7 @@ hull = ConvexHull(points)
 maxp = np.amax(points , axis = 0)
 minp = np.amin(points , axis = 0)
 
-maxX = maxp[0]
+maxX = maxp[0]      #Megista kai elaxista x,y
 maxY = maxp[1]
 minX = minp[0]
 minY = minp[1]
