@@ -7,10 +7,13 @@ from math import sqrt
 points = np.random.rand(30, 2)   # 30 random points in 2-D
 hull = ConvexHull(points)
 
-maxX = np.amax(points[:1])
-maxY = np.amax(points[:2])
-minX= np.amin(points[:1])
-minY = np.amin(points[:2])
+maxp = np.amax(points , axis = 0)
+minp = np.amin(points , axis = 0)
+
+maxX = np.amax(maxp[:1])
+maxY = np.amax(maxp[:2])
+minX = np.amin(minp[:1])
+minY = np.amin(minp[:2])
 
 
 a = sqrt((( minX-maxX)**2) + ((minY-minY)**2))
